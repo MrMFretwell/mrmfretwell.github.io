@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+<body>
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form id="contactForm" method="post" action="https://script.google.com/macros/s/AKfycbwIy655-363HU4eTlLD7C2mb6tIb5PXC6zMONmyP4TaUmMV1B4/exec"> <!-- this is the data collection form which is submitted by js -->
+									<div class="field half first">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="special" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+                                
+                                <div style="display:none;" id="thanks">
+                                <h2>Thanks for sending me a message</h2> </div>
+							</article> <!-- Thank you message output without refreshing -->
+                            
+<script src="redirect.js"></script> <!-- script for redirecting to a success page, error with Github io is somewhere in here -->
+</body>
+</html>
